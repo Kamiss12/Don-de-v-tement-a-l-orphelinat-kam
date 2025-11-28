@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de l'Orphelinat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aidez les Orphelins !</h1>
+            <p>Chaque don compte pour offrir un avenir meilleur aux enfants de l'orphelinat. Remplissez le formulaire, nous nous occupons du reste.</p>
+            <p class="trust-message">Votre générosité est précieuse et sécurisée. Merci pour votre aide !</p>
+        </header>
+
+        <section class="images-section">
+            <h2>Nos Orphelins</h2>
+            <div class="images-gallery">
+                <img src="https://via.placeholder.com/300x200?text=Orphelin+1" alt="Orphelin 1">
+                <img src="https://via.placeholder.com/300x200?text=Orphelin+2" alt="Orphelin 2">
+                <img src="https://via.placeholder.com/300x200?text=Orphelin+3" alt="Orphelin 3">
+                <img src="https://via.placeholder.com/300x200?text=Orphelin+4" alt="Orphelin 4">
+            </div>
+        </section>
+
+
+
+        <main>
+            <section class="progress-section">
+                <h2>Notre Progrès</h2>
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+                <p id="progress-text"></p>
+            </section>
+
+            <section class="recent-donations">
+                <h3>Dons Récents</h3>
+                <ul id="recent-donations-list">
+                    <!-- Liste des dons récents sera ajoutée dynamiquement -->
+                </ul>
+            </section>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbbiYDiX9uc1GY0fFamlDe9XDCPOPPeg0VeWh9a3KsRLIXlQ/viewform" target="_blank" class="donate-button">Faire un Don à l'Orphelinat</a>
+
+            <p class="form-note">Cliquez sur le bouton ci-dessus pour accéder au formulaire de don. Une fois rempli et envoyé, vos informations seront enregistrées dans notre base de données.</p>
+
+            <div class="december-encouragement">
+                <p>En ce mois de décembre, votre don peut apporter joie et chaleur aux enfants de l'orphelinat. Chaque contribution compte pour offrir un Noël mémorable !</p>
+            </div>
+
+            <div class="donors-wall">
+                <h3>Mur des Donateurs</h3>
+                <ul id="donors-list">
+                    <!-- Liste des donateurs sera ajoutée dynamiquement -->
+                </ul>
+            </div>
+
+            <div class="share-buttons">
+                <h3>Invitez vos amis !</h3>
+                <a href="https://wa.me/?text=Participez%20au%20don%20%C3%A0%20l'orphelinat%20!" class="share-btn whatsapp">WhatsApp</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_SITE_URL" class="share-btn facebook">Facebook</a>
+                <a href="https://www.messenger.com/t/YOUR_PAGE_ID" class="share-btn messenger">Messenger</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
